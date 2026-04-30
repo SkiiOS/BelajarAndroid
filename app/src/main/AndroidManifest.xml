@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarAndroid">
         <activity
+            android:name=".leklerghk"
+            android:exported="false" />
+        <activity
             android:name=".LoginSharedPreference"
             android:exported="false" />
         <activity
