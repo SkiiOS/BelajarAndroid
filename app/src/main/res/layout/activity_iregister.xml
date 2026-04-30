@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IRegisterActivity">
+
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="Register"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:hint="Nama"
+        android:background="@drawable/garisluar"
+        app:layout_constraintTop_toBottomOf="@id/txtregister"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edtAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:hint="Alamat"
+        android:background="@drawable/garisluar"
+        app:layout_constraintTop_toBottomOf="@id/edtNama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:hint="Input Email"
+        android:background="@drawable/garisluar"
+        app:layout_constraintTop_toBottomOf="@id/edtAlamat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNoTelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:hint="NoTelp"
+        android:background="@drawable/garisluar"
+        app:layout_constraintTop_toBottomOf="@id/edtEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:hint="Password"
+        android:background="@drawable/garisluar"
+        app:layout_constraintTop_toBottomOf="@id/edtNoTelp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edtConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:hint="Confirm Password"
+        android:background="@drawable/garisluar"
+        app:layout_constraintTop_toBottomOf="@id/edtPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:width="200dp"
+        android:background="@drawable/btn_blue"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:paddingVertical="14dp"
+        android:text="Register"
+        android:textColor="#040d85"
+        app:layout_constraintTop_toBottomOf="@id/edtConfirm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

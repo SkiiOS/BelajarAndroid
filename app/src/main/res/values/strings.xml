@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BelajarAndroid</string>
+
+    <string name="PerjanjianLinkedIn">
+
+        Dengan mengeklik Lanjutkan, Anda menyetujui <a href="https://id.linkedin.com/legal/user-agreement">Perjanjian Pengguna</a>
+        , <a href="https://id.linkedin.com/legal/privacy-policy">Kebijakan Privasi</a>
+        , dan <a href="https://id.linkedin.com/legal/cookie-policy">Kebijakan Cookie</a>
+    </string>
+
+</resources>

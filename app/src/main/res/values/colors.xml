@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="f1_ferrari_p">#E80020</color>
+    <color name="f1_ferrari_a">#FFFFFF</color>
+    <color name="f1_ferrari_h">#FFF200</color>
+
+    <color name="f1_mclaren_p">#FF8000</color>
+    <color name="f1_mclaren_a">#1E1E1E</color>
+    <color name="f1_mclaren_c1">#47C7FC</color>
+    <color name="f1_mclaren_c2">#FFD700</color>
+    <color name="f1_mclaren_c3">#E80020</color>
+    <color name="f1_mclaren_c4">#33FF33</color>
+
+    <color name="f1_williams_p">#00A0DE</color>
+    <color name="f1_williams_a">#041E42</color>
+    <color name="f1_williams_h">#FFFFFF</color>
+
+    <color name="f1_audi_p">#000000</color>
+    <color name="f1_audi_a">#52E252</color>
+    <color name="f1_audi_h">#444444</color>
+
+    <color name="f1_redbull_p">#041E42</color>
+    <color name="f1_redbull_a">#EB1946</color>
+    <color name="f1_redbull_h">#FCD700</color>
+    <color name="f1_redbull_e">#C4CED4</color>
+
+    <color name="f1_mercedes_p">#000000</color>
+    <color name="f1_mercedes_a">#27F4D2</color>
+    <color name="f1_mercedes_h">#C4CED4</color>
+
+    <color name="f1_haas_p">#FFFFFF</color>
+    <color name="f1_haas_a">#E6002B</color>
+    <color name="f1_haas_h">#1E1E1E</color>
+
+    <color name="f1_rb_p">#6692FF</color>
+    <color name="f1_rb_a">#FFFFFF</color>
+    <color name="f1_rb_h">#C4CED4</color>
+
+    <color name="f1_aston_p">#004225</color>
+    <color name="f1_aston_a">#CEDC00</color>
+    <color name="f1_aston_h">#FFFFFF</color>
+
+    <color name="f1_alpine_p">#0093CC</color>
+    <color name="f1_alpine_a">#FF87BC</color>
+    <color name="f1_alpine_h">#000000</color>
+
+    <color name="f1_cadillac_p">#000000</color>
+    <color name="f1_cadillac_a">#C9A227</color>
+    <color name="f1_cadillac_h">#FFFFFF</color>
+</resources>

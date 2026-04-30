@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BelajarAndroid">
+        <activity
+            android:name=".LoginSharedPreference"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuSharedPreference"
+            android:exported="false" />
+        <activity
+            android:name=".DetailTeam"
+            android:exported="false" />
+        <activity
+            android:name=".F1Team"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConfirmRegister"
+            android:exported="false" />
+        <activity
+            android:name=".IRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginIntent"
+            android:exported="false" />
+        <activity
+            android:name=".HomeIntent"
+            android:exported="false" />
+        <activity
+            android:name=".Linkedin"
+            android:exported="false" />
+        <activity
+            android:name=".Persegi_Panjang"
+            android:exported="false" />
+        <activity
+            android:name=".LoginConstraint"
+            android:exported="false" />
+        <activity
+            android:name=".DeveloperPage"
+            android:exported="false" />
+        <activity
+            android:name=".KalkulatorAritmatika"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

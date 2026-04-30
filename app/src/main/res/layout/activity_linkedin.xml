@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:backgroundTint="@color/white">
+
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="139dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:src="@drawable/linkedin" />
+
+        <!-- Title -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Login"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- Google Button -->
+        <Button
+            android:id="@+id/btngoogle"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Login dengan Google"
+            android:textAllCaps="false"
+            android:drawableStart="@drawable/google"
+            android:drawablePadding="12dp"
+            android:paddingStart="16dp"
+            android:backgroundTint="#F2F2F2"
+            android:textColor="#000000"/>
+
+        <!-- Apple Button -->
+        <Button
+            android:id="@+id/btnapple"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:drawableStart="@drawable/apple"
+            android:text="Login dengan Apple"
+            android:textAllCaps="false"
+            android:backgroundTint="#F2F2F2"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/perjanjian"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/PerjanjianLinkedIn"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <!-- OR Divider -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="atau"
+            android:textColor="#888888"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp" />
+
+        <!-- Email -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:hint="Email atau telepon"
+            android:padding="16dp"
+            android:background="@android:drawable/edit_text" />
+
+        <!-- Password -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:hint="Kata sandi"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:background="@android:drawable/edit_text" />
+
+        <!-- Forgot -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lupa kata sandi?"
+            android:textColor="#0A66C2"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <!-- Login Button -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1D6FBF"
+            android:textSize="16sp" />
+
+        <!-- Register -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baru di sini? Bergabung sekarang"
+            android:textColor="#0A66C2"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>
